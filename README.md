@@ -18,7 +18,7 @@
 - [x] nginx が自動起動するように設定
 - [x] SELinux が nginx の動作を妨げていないか確認。`error.log` などを参照
 - [x] サスペンドを無効にする。`/etc/systemd/logind.conf` を編集
-- [] dropbox のインストール。ログなどをバックアップするように設定
+- [ ] dropbox のインストール。ログなどをバックアップするように設定
 
 ### 参照
 - [CentOS7初期設定](http://centossrv.com/centos7-init.shtml)
