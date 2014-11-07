@@ -1,0 +1,11 @@
+[unit]
+Description=Dropbox as a systemd service
+
+[Service]
+Type=forking
+ExecStart=/root/bin/dropbox.py start
+ExecStop=/root/bin/dropbox.py stop
+PIDFile=/root/.dropbox/dropbox.pid
+ 
+[Install]
+WantedBy=default.target
